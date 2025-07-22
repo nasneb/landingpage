@@ -1,32 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-  <title>Ruben Santos</title>
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ruben Santos</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
 <body>
 
-  <header>
-    <h1>Ruben Santos</h1>
-  </header>
-
- <div class="hero-image">
+<div class="hero-image">
   <div class="hero-text">
-    <h1>I am John Doe</h1>
-    <p>And I'm a Photographer</p>
-    <button>Hire me</button>
+    <h1 style="font-size:50px">Ruben Santos</h1>
+    <p>motion designer</p>
   </div>
-</div> 
-  
-  <section>
-    <p>
+</div>
+
+<p>
 Ruben Santos, designer, curator and Assistant Professor at Escola Superior de Arte e Design, Caldas da Rainha.<br>
 With a focus in Motion & Multimedia Design, creates projects for cinema, theater, television and audiovisual installations.<br>
 Explores emerging technologies and innovative pedagogical methodologies.<br>
-    </p>
-  </section>
+</p>
 
 </body>
 </html>
