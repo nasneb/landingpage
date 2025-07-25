@@ -60,9 +60,7 @@ body, html {
 
 <body>
 
-<h2 class="w3-center">Automatic Slideshow</h2>
-
-<div class="w3-content w3-section" style="max-width:500px">
+<div class="w3-content w3-section" style="max-width:100%">
   <img class="mySlides" src="01.jpg" style="width:100%">
   <img class="mySlides" src="02.jpg" style="width:100%">
   <img class="mySlides" src="03.jpg" style="width:100%">
@@ -81,7 +79,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 10000); // Change image every 2 seconds
 }
 </script>
   <div class="hero-image">
